@@ -1,0 +1,10 @@
+RewriteEngine On
+RewriteRule ^$ index.php [L]
+RewriteRule ^login$ login.php [L]
+RewriteRule ^keluar$ sass/logout.php [L]
+RewriteRule ^register$ register.php [L]
+RewriteRule ^terms$ term.php [L]
+RewriteRule ^cara-pembayaran$ cara-pembayaran.php [L]
+RewriteRule ^cara-pemesanan$ cara-pemesanan.php [L]
+RewriteRule ^pesanan-hotel$ list-order-hotel.php [L]
+RewriteRule ^pesanan-pesawat$ order-detail-flight.php [L]
